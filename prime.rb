@@ -11,8 +11,6 @@
 # end
 
 def prime?(num)
-  if num <= 1
-    return false
   n = 2
   while n < num
     return false if num % n == 0
