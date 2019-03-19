@@ -1,2 +1,4 @@
 def prime(num)
-  if num % num == 0 && 
+  if num < 1 
+    return FALSE
+  
