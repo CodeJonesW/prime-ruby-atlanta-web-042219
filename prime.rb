@@ -1,4 +1,6 @@
 def prime?(num)
- for 2
+ for d in 2..(num-1)
+   if num % d == 0 
+     return 
 end
 end
