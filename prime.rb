@@ -11,7 +11,7 @@
 # end
 
 def prime?(num)
-  if num <= 0
+  if num <= 1
     return false
   n = 2
   while n < num
